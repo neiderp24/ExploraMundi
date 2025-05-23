@@ -1,0 +1,3 @@
+// src/cesium-config.js
+
+export const CESIUM_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhNDhiMjc0Mi03YWQxLTQwYmEtOWU4Yy1iZDYxNzNiNTRmZjMiLCJpZCI6Mjk2Njg3LCJpYXQiOjE3NDU0NjQ3NTZ9.18fr-JQHEGctkg_taGoi_RJ_BVHHk3UkSXX7JUeuCaU";

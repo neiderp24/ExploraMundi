@@ -1,0 +1,97 @@
+* {
+    border: none !important;
+    outline: none !important;
+}
+
+.card {
+    min-height: 400px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.bg-custom {
+    background-color: #272c31;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.bg-custom:hover {
+    background-color: #30353a;
+}
+
+.btn-check:checked+.btn {
+    background-color: #495057;
+    color: white;
+}
+
+.btn-check+.btn:hover {
+    background-color: #30353a;
+}
+
+.btn-check:checked+.btn:hover {
+    background-color: #5a6268;
+}
+
+.bg-custom:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px #ffffff80;
+}
+
+.non-recognized-country .card-body {
+    border: 0.5px solid #ff0000 !important;
+    color: #ffffff;
+}
+
+.page-info {
+    margin: 0 10px;
+    font-weight: bold;
+    color: white;
+}
+
+button.secondary .material-icons {
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+button.secondary {
+    background: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+button.secondary:not(:disabled):hover .material-icons {
+    color: #e5e5e5;
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+}
+
+button.secondary:disabled {
+    color: #555;
+    cursor: auto;
+}
+
+#globeViz canvas {
+    border-radius: 10px;
+}
