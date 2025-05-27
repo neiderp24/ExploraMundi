@@ -31,15 +31,6 @@ const GlobeComponent = forwardRef(({ onCountrySelected }, ref) => {
     viewer.scene.globe.depthTestAgainstTerrain = true;
     viewerInstanceRef.current = viewer;
 
-    // Establecer una vista inicial alejada
-    viewer.scene.camera.setView({
-      destination: Cesium.Cartesian3.fromDegrees(0.0, 20.0, 25000000),
-    });
-
-    setTimeout(() => {
-      viewer.resize();
-    }, 500);
-
     // Mostrar mensaje flotante arriba del visor
     const showFloatingTip = () => {
       const container = viewerRef.current;
